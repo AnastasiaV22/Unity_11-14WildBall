@@ -17,4 +17,13 @@ public class TrapsAnimationController : MonoBehaviour
         animator.SetInteger("NextState", next);
     }
 
+    public void OnAnimationStart()
+    {
+        animator.SetBool("IsDangerous", true);
+    }
+
+    public void OnAnimationEnd()
+    {
+        animator.SetBool("IsDangerous", false);
+    }
 }
