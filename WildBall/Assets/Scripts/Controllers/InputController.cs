@@ -2,25 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Test.Inputs
+namespace WildBall.Inputs
 {
     public class InputController : MonoBehaviour
     {
-        private Vector3 direction;
         [SerializeField] private PlayerMovement playerMovement;
         
+        private float move;
+        private float rotate;
 
         private void Update()
         {
-            float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical");
+            rotate = Input.GetAxis(GlobalStringVars.HORIZONTAL_AXIS);
+            move = Input.GetAxis(GlobalStringVars.VERTICAL_AXIS);
 
-            direction = new Vector3(vertical, 0, -horizontal).normalized;
+            if (Input.GetButtonDown(GlobalStringVars.JUMP_BUTTON))
+                playerMovement.PlayerJump();
+
         }
 
         void FixedUpdate()
         {
-            playerMovement.MoveCharacter(direction);
+            playerMovement.MoveCharacter(move, -rotate);
 
         }
     }
