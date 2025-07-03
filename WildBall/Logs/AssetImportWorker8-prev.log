@@ -1,0 +1,728 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 63091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Unity/Git/Unity_11-14WildBall/WildBall
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+50126
+Successfully changed project path to: D:/Unity/Git/Unity_11-14WildBall/WildBall
+D:/Unity/Git/Unity_11-14WildBall/WildBall
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23336] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3361332705 [EditorId] 3361332705 [Version] 1048832 [Id] WindowsEditor(7,Yaygeniu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23336] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3361332705 [EditorId] 3361332705 [Version] 1048832 [Id] WindowsEditor(7,Yaygeniu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 25.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Git/Unity_11-14WildBall/WildBall/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:   NVIDIA
+    VRAM:     15907 MB
+    Driver:   32.0.15.7680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002584 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 184 ms
+Refreshing native plugins compatible for Editor in 25.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (52ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (13ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (219ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (44ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (485ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (20.5 KB). Loaded Objects now: 3629.
+Memory consumption went from 131.5 MB to 131.5 MB.
+Total: 3.864400 ms (FindLiveObjects: 0.450600 ms CreateObjectMapping: 0.095500 ms MarkObjects: 3.287800 ms  DeleteObjects: 0.029800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (21.9 KB). Loaded Objects now: 3632.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 3.181500 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.822800 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (22.0 KB). Loaded Objects now: 3635.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 3.422900 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.956600 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (21.9 KB). Loaded Objects now: 3638.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 3.309700 ms (FindLiveObjects: 0.384200 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.816600 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (21.9 KB). Loaded Objects now: 3641.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 3.349300 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.850300 ms  DeleteObjects: 0.027000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5593.499083 seconds.
+  path: Assets/_Scenes/Level1/lvl1.lighting
+  artifactKey: Guid(c5dbc6e2106de814881ab41aa5566613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_Scenes/Level1/lvl1.lighting using Guid(c5dbc6e2106de814881ab41aa5566613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d394cceef83fc511de4ab8a9d96f57') in 0.028470 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2570.793793 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees
+  artifactKey: Guid(c1f145a8e86c99f4fac5578271b558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees using Guid(c1f145a8e86c99f4fac5578271b558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7349d5096a992afe8556061d45fe81c') in 0.007348 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.910232 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree7
+  artifactKey: Guid(fe949e1a47f2f124a907ba84367ceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree7 using Guid(fe949e1a47f2f124a907ba84367ceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89ccb4617817517603f8b3db20f1563') in 0.007288 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.122048 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree7/tree_7.fbx
+  artifactKey: Guid(0431bfc7bc7b7f7478441b95e45d4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree7/tree_7.fbx using Guid(0431bfc7bc7b7f7478441b95e45d4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765bd579121f946161190debe9f405af') in 0.071900 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.071625 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree1/tree_1.fbx
+  artifactKey: Guid(5be31be6ef8ef654e9cede989988bc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree1/tree_1.fbx using Guid(5be31be6ef8ef654e9cede989988bc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad5412c15180885f3e1bb5332bc449d') in 0.018599 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.247432 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree2/tree_2.fbx
+  artifactKey: Guid(c7e4deed4bf29e446a556146f3e6d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree2/tree_2.fbx using Guid(c7e4deed4bf29e446a556146f3e6d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9985f71091da4ff8aa56b00b61b2e') in 0.016712 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.179459 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree3/tree_3.fbx
+  artifactKey: Guid(72ab132d4cd116642bb06dd965c4a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree3/tree_3.fbx using Guid(72ab132d4cd116642bb06dd965c4a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5755519f7a92e661fef16daee487dd') in 0.015389 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.233002 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.fbx
+  artifactKey: Guid(5438c0f5046c53c48affd90a69fca314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.fbx using Guid(5438c0f5046c53c48affd90a69fca314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3517d56097a5f06cc1b807c3949ba954') in 0.016128 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.929837 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree5/tree_5.fbx
+  artifactKey: Guid(353d0e325a54fa745a9120539f4903fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree5/tree_5.fbx using Guid(353d0e325a54fa745a9120539f4903fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7959fa833751a5fe268008655c3924f0') in 0.014990 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.689126 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree6/tree_6.fbx
+  artifactKey: Guid(11032737a1e816040853ea01395218bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree6/tree_6.fbx using Guid(11032737a1e816040853ea01395218bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cabe4fa4a3f37c461018682c0b74d1') in 0.017631 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.784666 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree8/tree_8.fbx
+  artifactKey: Guid(aafb90b6726d3e246b969d70764aa83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree8/tree_8.fbx using Guid(aafb90b6726d3e246b969d70764aa83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5d4955006b20aebacebc458ae81856') in 0.015033 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.079437 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree10/tree_10.fbx
+  artifactKey: Guid(cc5e5f6a578f42a498a293e0fa69fa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree10/tree_10.fbx using Guid(cc5e5f6a578f42a498a293e0fa69fa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34ca5020dd2c5f3361e97793b7a4997') in 0.015023 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.171088 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree9/tree_9.fbx
+  artifactKey: Guid(8bb1c403f9daf684aa322594a66ceed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree9/tree_9.fbx using Guid(8bb1c403f9daf684aa322594a66ceed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d32acf3cf3a7f86437df879d1e1054') in 0.015382 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.334329 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.fbx
+  artifactKey: Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.fbx using Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615ec2a8512e0e32076dbc8bea6cb78c') in 0.015622 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.753403 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree13/tree_13.fbx
+  artifactKey: Guid(b7e5b44a7a403a44187e6896e7dcdaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree13/tree_13.fbx using Guid(b7e5b44a7a403a44187e6896e7dcdaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4316c5bdbc98c5bfe79c72a5800e90f6') in 0.017959 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.969863 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree12/tree_12.fbx
+  artifactKey: Guid(40018ab15052ad442b761ca4edad7bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree12/tree_12.fbx using Guid(40018ab15052ad442b761ca4edad7bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6351e2babbe0a2b71f4f01521066b85') in 0.016852 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.305147 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree14/tree_14.fbx
+  artifactKey: Guid(4b2fbc8ae19080b45a2c1fd20143ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree14/tree_14.fbx using Guid(4b2fbc8ae19080b45a2c1fd20143ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7f02a7961ee6ab4701c23a6066d580') in 0.017054 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.666074 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.fbx
+  artifactKey: Guid(688d996901c77c042a99818285b8d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.fbx using Guid(688d996901c77c042a99818285b8d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f749ebfda287e7e950195c6ca94293') in 0.017679 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 31.744004 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.fbx
+  artifactKey: Guid(34773dfef32708d408cbfa993e000b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.fbx using Guid(34773dfef32708d408cbfa993e000b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dc5e7f7cd2c8ab4f506a829fa4f822') in 0.017638 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.828089 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx
+  artifactKey: Guid(bb06ca74e1ca1874393556c7f4258673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx using Guid(bb06ca74e1ca1874393556c7f4258673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2fdea9ba676f189a0a97f197e648c1') in 0.045414 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.854452 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree18/tree_18.fbx
+  artifactKey: Guid(b9ae251e1dca88943977de87fd5323f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree18/tree_18.fbx using Guid(b9ae251e1dca88943977de87fd5323f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a343a7fb1e2336ec8406a7857fab70b') in 0.015804 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.547811 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree19/tree_19.fbx
+  artifactKey: Guid(52a9b6a9d36c4cb46a83a8c3e9f2f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree19/tree_19.fbx using Guid(52a9b6a9d36c4cb46a83a8c3e9f2f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a48d05ca8097dff1ce1b340fc12404') in 0.017014 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.846325 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree20/tree_20.fbx
+  artifactKey: Guid(375ba0b257fe0b441a2becc228075b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree20/tree_20.fbx using Guid(375ba0b257fe0b441a2becc228075b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422fd269ab4a124daed0e80846ecf624') in 0.017369 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.186700 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree21/tree_21.fbx
+  artifactKey: Guid(56dc968ef5e540e4294880406a7181ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree21/tree_21.fbx using Guid(56dc968ef5e540e4294880406a7181ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dde0791d7353cccd3f82cfe7875278') in 0.017731 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.428377 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree22/tree_22.fbx
+  artifactKey: Guid(656cf1a0962a1a840a6c3be58a0f46bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree22/tree_22.fbx using Guid(656cf1a0962a1a840a6c3be58a0f46bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcc1b5547b556df82cffa3646e6c7c6') in 0.017581 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.251125 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree23/tree_23.fbx
+  artifactKey: Guid(60adbfbbf2cb1c343ace53f0d5b7d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree23/tree_23.fbx using Guid(60adbfbbf2cb1c343ace53f0d5b7d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b76878cc4254bc228cb032372e1a7') in 0.017211 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.124847 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree24/tree_24.fbx
+  artifactKey: Guid(f06afdf1fada6a240b1d903740112206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree24/tree_24.fbx using Guid(f06afdf1fada6a240b1d903740112206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5e81183c3496e11bb318871d45c049') in 0.016547 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.727554 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree25/tree_25.fbx
+  artifactKey: Guid(526a4f7e3af76a649841e5ce8bd5cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree25/tree_25.fbx using Guid(526a4f7e3af76a649841e5ce8bd5cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c93cc1dad4a9765b5e51d0ac824a3') in 0.016395 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.717182 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.fbx
+  artifactKey: Guid(285aae58a988ea749b1388ee5ad8d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.fbx using Guid(285aae58a988ea749b1388ee5ad8d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2649c9b92ad5a5a6c395862aaa63f028') in 0.040371 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 7.080927 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26
+  artifactKey: Guid(0c4e5c6a3eab6564bafd3500f4a13765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26 using Guid(0c4e5c6a3eab6564bafd3500f4a13765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce540973d4e850d1fcc69579b65e9698') in 0.007303 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.297228 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree3/tree_3.fbx
+  artifactKey: Guid(72ab132d4cd116642bb06dd965c4a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree3/tree_3.fbx using Guid(72ab132d4cd116642bb06dd965c4a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcad3a4d569d043a4e3890bec61eafaf') in 0.007567 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.prefab
+  artifactKey: Guid(489490c7014e5f24f846fba9f41f1bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree4/tree_4.prefab using Guid(489490c7014e5f24f846fba9f41f1bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c27e5263f4af8d7f46dcc1c7840fb35') in 0.006784 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.fbx
+  artifactKey: Guid(285aae58a988ea749b1388ee5ad8d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.fbx using Guid(285aae58a988ea749b1388ee5ad8d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca31d4ecc1fc600c8359d1d0d5ead0f4') in 0.012450 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.prefab
+  artifactKey: Guid(a51cbbedadaf47d479bc6a1c47b46f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree15/tree_15.prefab using Guid(a51cbbedadaf47d479bc6a1c47b46f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b4a52050b389ef6e3707ec7c9df838') in 0.005256 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.prefab
+  artifactKey: Guid(22a296bfe11192d42884c5a5042def17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree26/tree_26.prefab using Guid(22a296bfe11192d42884c5a5042def17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97c5937adf093df16655c7162131334') in 0.009337 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.fbx
+  artifactKey: Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.fbx using Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee85ffb4f146e0c57f3c3e6ee51d2028') in 0.009950 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.prefab
+  artifactKey: Guid(9518168266436f54aa48391f056f5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree11/tree_11.prefab using Guid(9518168266436f54aa48391f056f5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54804108cc1852a53ea85492349b6d70') in 0.004504 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.prefab
+  artifactKey: Guid(a4c074be12f86814ea9824e9966e45fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree16/tree_16.prefab using Guid(a4c074be12f86814ea9824e9966e45fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b35c44af497fa9151a54ffdbbb4545') in 0.004627 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx
+  artifactKey: Guid(bb06ca74e1ca1874393556c7f4258673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DownloadedAssets/Aligned Games/Polygonal Foliage Asset Package/Models/Trees/Tree17/tree_17.fbx using Guid(bb06ca74e1ca1874393556c7f4258673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7078e803aef99bc8ac449d8a15f28dcd') in 0.006346 seconds 
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
