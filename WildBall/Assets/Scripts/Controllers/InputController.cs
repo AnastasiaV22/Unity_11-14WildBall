@@ -8,13 +8,13 @@ namespace WildBall.Inputs
     {
         [SerializeField] private PlayerMovement playerMovement;
         
+        
         private float move;
         private float rotate;
 
+        
         private void Update()
         {
-            rotate = Input.GetAxis(GlobalStringVars.HORIZONTAL_AXIS);
-            move = Input.GetAxis(GlobalStringVars.VERTICAL_AXIS);
 
             if (Input.GetButtonDown(GlobalStringVars.JUMP_BUTTON))
                 playerMovement.PlayerJump();
@@ -23,8 +23,10 @@ namespace WildBall.Inputs
 
         void FixedUpdate()
         {
-            playerMovement.MoveCharacter(move, -rotate);
-
+            rotate = Input.GetAxisRaw(GlobalStringVars.HORIZONTAL_AXIS);
+            move = Input.GetAxis(GlobalStringVars.VERTICAL_AXIS);
+            playerMovement.MoveCharacter(move);
+            playerMovement.RotateCharacter(rotate);
         }
     }
 

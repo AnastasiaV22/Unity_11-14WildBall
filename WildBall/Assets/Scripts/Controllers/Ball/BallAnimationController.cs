@@ -13,7 +13,6 @@ public class BallAnimationController : MonoBehaviour
     public void RandomAnimationChanger()
     {
         int next = Random.Range(0, 3);
-        Debug.Log(next);
         animator.SetInteger("NextState", next);   
     }
 
